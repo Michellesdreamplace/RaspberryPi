@@ -34,7 +34,7 @@ appspot-preview.l.google.com
 reminders-pa.googleapis.com
 firestore.googleapis.com
 
-# [Gmail] (Google Mail)
+# [Gmail - Google Mail]
 googleapis.l.google.com
 
 
@@ -154,7 +154,8 @@ adfoc.us
 # -[Content Delivery]-
 
 # [EA / Origin]
-cdn.optimizely.com (Used by Origin for content delivery)
+# (Used by Origin for content delivery)
+cdn.optimizely.com
 s.shopify.com
 
 # [Dropbox]
