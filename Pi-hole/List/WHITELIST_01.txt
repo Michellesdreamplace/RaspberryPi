@@ -220,6 +220,7 @@ www.awin1.com
 zenaps.com
 
 # [AliExpress]
+# de.hlth.io.mi.com
 ae01.alicdn.com
 ae04.alicdn.com
 g.alicdn.com
