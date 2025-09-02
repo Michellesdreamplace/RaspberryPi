@@ -1,0 +1,28 @@
+# WHITELIST
+#
+#
+
+# ----------[Google]----------
+
+# (Maps, YouTube usw)
+clients4.google.com
+clients2.google.com
+
+# (YouTube History)
+s.youtube.com
+video-stats.l.google.com
+
+# (Google Play)
+android.clients.google.com
+0.client-channel.google.com
+2.android.pool.ntp.org
+
+# (Moto phones OS updates)
+appspot-preview.l.google.com
+
+# (Google Keep)
+reminders-pa.googleapis.com
+firestore.googleapis.com
+
+# Gmail (Google Mail)
+googleapis.l.google.com
