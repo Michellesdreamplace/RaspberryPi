@@ -217,6 +217,24 @@ tracking.epicgames.com
 www.awin1.com
 zenaps.com
 
+# [AliExpress]
+ae01.alicdn.com
+ae04.alicdn.com
+g.alicdn.com
+s.click.aliexpress.com
+ynuf.alipay.com
+cmap.alibaba.com
+img.alibaba.com
+lighthouse.aliexpress.com
+best.aliexpress.com
+assets.alicdn.com
+i.alicdn.com
+is.alicdn.com
+translate.google.com
+translate.googleapis.com
+www.google.com
+www.gstatic.com
+
 # [Spiegel.de]
 sourcepoint.mgr.consensu.org
 spiegel-de.spiegel.de
