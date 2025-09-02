@@ -1,10 +1,10 @@
 # ╔════════════════════════════════════════════════════════════════════════════════════════════════════
-# ║ WHITELIST_01
+# ║ WHITELIST_01  -  Stand: 02.09.2025
 # ║ 
 # ║ für Pi-hole
 # ║
-# ║
-# ║
+# ║ QUELLE:
+# ║ https://cybertalk.io/de/blocklists-fuer-pihole/#Empfohlene_Whitelist_Eintraege
 # ║
 # ║
 # ║
