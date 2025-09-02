@@ -51,7 +51,7 @@ www.msftncsi.com
 msftncsi.com
 ipv6.msftncsi.com
 
-# [Microsoft Web Pages] (Outlook, Office365, Live,Microsoft.com)
+# [Microsoft Web Pages - Outlook, Office365, Live,Microsoft.com]
 outlook.office365.com
 products.office.com
 c.s-microsoft.com
@@ -59,10 +59,10 @@ i.s-microsoft.com
 login.live.com
 login.microsoftonline.com
 
-# ([Backup Bitlocker recovery Key zu Microsoft]
+# [Backup Bitlocker recovery Key zu Microsoft]
 g.live.com
 
-# [Microsoft Store] (Windows Store)
+# [Microsoft Store - Windows Store]
 dl.delivery.mp.microsoft.com
 geo-prod.do.dsp.mp.microsoft.com
 displaycatalog.mp.microsoft.com
@@ -70,7 +70,7 @@ displaycatalog.mp.microsoft.com
 # [Xbox Live]
 clientconfig.passport.net
 
-# [Domains die für Xbox Live Achievments genutzt werden] (von Microsoft bestätigt)
+# [Domains die für Xbox Live Achievments genutzt werden - von Microsoft bestätigt]
 v10.events.data.microsoft.com
 v20.events.data.microsoft.com
 
@@ -107,7 +107,12 @@ pricelist.skype.com
 apps.skype.com
 m.hotmail.com
 sa.symcb.com
-s{1..5}.symcb.com
+# s{1..5}.symcb.com
+s1.symcb.com
+s2.symcb.com
+s3.symcb.com
+s4.symcb.com
+s5.symcb.com
 
 # [Microsoft Office]
 officeclient.microsoft.com
@@ -137,8 +142,7 @@ www.appleiphonecell.com
 
 # --------------------[Nvidia]--------------------
 
-# [NVIDIA GeForce Experience]
-# (Die Treiber benötigen diese Domain, gleichzeitig werden Statistiken erhoben)
+# [NVIDIA GeForce Experience - Die Treiber benötigen diese Domain, gleichzeitig werden Statistiken erhoben]
 gfwsl.geforce.com
 
 
@@ -153,8 +157,7 @@ adfoc.us
 
 # -[Content Delivery]-
 
-# [EA / Origin]
-# (Used by Origin for content delivery)
+# [EA / Origin - Used by Origin for content delivery]
 cdn.optimizely.com
 s.shopify.com
 
@@ -163,12 +166,11 @@ dl.dropboxusercontent.com
 ns1.dropbox.com
 ns2.dropbox.com
 
-# [Google Chrome] (Updates unter Ubuntu)
+# [Google Chrome - Updates unter Ubuntu]
 dl.google.com
 
 # -[Streaming]-
-# [Spotify]
-# (Ohne diese Domains auf der Whitelist, funktioniert der IOS Client nicht mehr)
+# [Spotify - Ohne diese Domains auf der Whitelist, funktioniert der IOS Client nicht mehr]
 spclient.wg.spotify.com
 apresolve.spotify.com
 
@@ -207,14 +209,13 @@ themoviedb.com
 
 # --------------------[]--------------------
 
-# [Grand Theft Auto V Online PC]
-# (Seit März scheint die Blockierung der Rockstar-Telemetrie GTAOnline zum Absturz zu bringen)
+# [Grand Theft Auto V Online PC - Seit März scheint die Blockierung der Rockstar-Telemetrie GTAOnline zum Absturz zu bringen]
 prod.telemetry.ros.rockstargames.com
 
 # [Epic Games Store]
 tracking.epicgames.com
 
-# [Cashback (Shoop.de)]
+# [Cashback - Shoop.de]
 www.awin1.com
 zenaps.com
 
@@ -278,12 +279,11 @@ fb.me
 bigzipfiles.facebook.com
 l.facebook.com
 
-# [HayDay (Handyspiel)]
+# [HayDay - Handyspiel]
 game-assets.haydaygame.com
 game.haydaygame.com
 
-# [Jackbox.tv]
-# [Jackbox.tv lädt nicht wenn google-analystics nicht auf der Whitelist sind)
+# [Jackbox.tv - Jackbox.tv lädt nicht wenn google-analystics nicht auf der Whitelist sind]
 www.google-analystics.com
 ssl.google-analystics.com
 
