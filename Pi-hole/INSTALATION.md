@@ -61,6 +61,8 @@ git clone --depth=1 https://github.com/pi-hole/pi-hole.git Pi-hole
 cd "Pi-hole/automated install/"
 sudo bash basic-install.sh
 ```
+
+!!! ACHTUNG: Das Web Interface password wird angezeigt !!! Bitte Notieren !!!
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
   ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
 ## ⚙️ Konfiguration nach der Installation
