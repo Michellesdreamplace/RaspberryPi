@@ -48,6 +48,11 @@ l.facebook.com
 
 
 facebook.com
+www.facebook.com
 gateway.facebook.com
 edge-chat.facebook.com
 web-chat-e2ee.facebook.com
+fbcdn.net
+static.xx.fbcdn.net
+
+
