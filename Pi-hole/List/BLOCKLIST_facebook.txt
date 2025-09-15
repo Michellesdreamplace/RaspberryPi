@@ -54,5 +54,3 @@ edge-chat.facebook.com
 web-chat-e2ee.facebook.com
 fbcdn.net
 static.xx.fbcdn.net
-
-
