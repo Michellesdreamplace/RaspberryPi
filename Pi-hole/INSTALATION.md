@@ -1,6 +1,7 @@
 # 🔧 Komplette Neuinstallation von Pi-hole auf Raspberry Pi 
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
   ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
+---
 ##📋 Vorbereitung: Alte Installation komplett entfernen
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
   ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
@@ -33,6 +34,7 @@ sudo apt install curl git dnsutils lighttpd php-common php-cgi sqlite3 -y
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
   ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
+---
 ## 🚀 Pi-hole Neuinstallation
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
   ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
@@ -90,6 +92,7 @@ head -n 5 /etc/pihole/gravity.list
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
   ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
+---
 ## 🔧 Netzwerkkonfiguration
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
   ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
@@ -116,7 +119,8 @@ static domain_name_servers=192.168.178.1
 - DNS-Server auf die IP Ihres Raspberry Pi setzen
 - Änderungen speichern
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
- ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
+ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
+---
 ## ✅ Funktionstest
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
   ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
@@ -148,6 +152,7 @@ echo "Pi-hole Web Interface: http://$(hostname -I | awk '{print $1}')/admin"
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
   ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
+---
 ## 🛠 Problembehandlung
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
   ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
@@ -181,6 +186,7 @@ dnsmasq --test
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
   ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
+---
 ## 🔒 Sicherheitseinstellungen
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
   ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
@@ -204,6 +210,7 @@ sudo dpkg-reconfigure unattended-upgrades
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
   ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
+---
 ## 📊 Monitoring und Wartung
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
   ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
@@ -227,6 +234,7 @@ pihole -up
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
   ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
+---
 ## 💡 Wichtige Hinweise
 
 1. Notieren Sie das Web Interface Passwort
