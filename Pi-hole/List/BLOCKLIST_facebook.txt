@@ -45,3 +45,9 @@ b-api.facebook.com
 fb.me
 bigzipfiles.facebook.com
 l.facebook.com
+
+
+facebook.com
+gateway.facebook.com
+edge-chat.facebook.com
+web-chat-e2ee.facebook.com
