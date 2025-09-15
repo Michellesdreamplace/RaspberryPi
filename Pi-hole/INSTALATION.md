@@ -16,7 +16,7 @@ sudo apt clean
 ### 2. Pi-hole komplett deinstallieren
 ```
 # Pi-hole deinstallieren
-pihole uninstall
+sudo pihole uninstall
 
 # Alle verbleibenden Dateien entfernen
 sudo rm -rf /etc/pihole/
