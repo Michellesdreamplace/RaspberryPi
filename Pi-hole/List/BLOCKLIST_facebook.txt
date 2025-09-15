@@ -10,47 +10,46 @@
 # ║
 # ║
 # ╚════════════════════════════════════════════════════════════════════════════════════════════════════
+127.0.0.1  localhost
 
 
 # --------------------[Facebook]--------------------
+127.0.0.1  scontent.xx.fbcdn.net
+127.0.0.1  connect.facebook.net
+127.0.0.1  star.c10r.facebook.com
+127.0.0.1  static.xx.fbcdn.net
+127.0.0.1  de-de.facebook.com
+127.0.0.1  upload.facebook.com
+127.0.0.1  creative.ak.fbcdn.net
+127.0.0.1  external-lhr0-1.xx.fbcdn.net
+127.0.0.1  external-lhr1-1.xx.fbcdn.net
+127.0.0.1  external-lhr10-1.xx.fbcdn.net
+127.0.0.1  external-lhr2-1.xx.fbcdn.net
+127.0.0.1  external-lhr3-1.xx.fbcdn.net
+127.0.0.1  external-lhr4-1.xx.fbcdn.net
+127.0.0.1  external-lhr5-1.xx.fbcdn.net
+127.0.0.1  external-lhr6-1.xx.fbcdn.net
+127.0.0.1  external-lhr7-1.xx.fbcdn.net
+127.0.0.1  external-lhr9-1.xx.fbcdn.net
+127.0.0.1  fbcdn-creative-a.akamaihd.net
+127.0.0.1  scontent-lhr3-1.xx.fbcdn.net
+127.0.0.1  fgdl5-1.fna.fbcdn.net
+127.0.0.1  cdn.fbsbx.com
+127.0.0.1  api.facebook.com
+127.0.0.1  edge-mqtt.facebook.com
+127.0.0.1  mmqtt.c10r.facebook.com
+127.0.0.1  portal.fb.com
+127.0.0.1  star.c10r.facebook.com
+127.0.0.1  star-mini.c10r.facebook.com
+127.0.0.1  b-api.facebook.com
+127.0.0.1  fb.me
+127.0.0.1  bigzipfiles.facebook.com
+127.0.0.1  l.facebook.com
 
-scontent.xx.fbcdn.net
-connect.facebook.net
-star.c10r.facebook.com
-static.xx.fbcdn.net
-de-de.facebook.com
-upload.facebook.com
-creative.ak.fbcdn.net
-external-lhr0-1.xx.fbcdn.net
-external-lhr1-1.xx.fbcdn.net
-external-lhr10-1.xx.fbcdn.net
-external-lhr2-1.xx.fbcdn.net
-external-lhr3-1.xx.fbcdn.net
-external-lhr4-1.xx.fbcdn.net
-external-lhr5-1.xx.fbcdn.net
-external-lhr6-1.xx.fbcdn.net
-external-lhr7-1.xx.fbcdn.net
-external-lhr9-1.xx.fbcdn.net
-fbcdn-creative-a.akamaihd.net
-scontent-lhr3-1.xx.fbcdn.net
-fgdl5-1.fna.fbcdn.net
-cdn.fbsbx.com
-api.facebook.com
-edge-mqtt.facebook.com
-mmqtt.c10r.facebook.com
-portal.fb.com
-star.c10r.facebook.com
-star-mini.c10r.facebook.com
-b-api.facebook.com
-fb.me
-bigzipfiles.facebook.com
-l.facebook.com
-
-
-facebook.com
-www.facebook.com
-gateway.facebook.com
-edge-chat.facebook.com
-web-chat-e2ee.facebook.com
-fbcdn.net
-static.xx.fbcdn.net
+127.0.0.1  facebook.com
+127.0.0.1  www.facebook.com
+127.0.0.1  gateway.facebook.com
+127.0.0.1  edge-chat.facebook.com
+127.0.0.1  web-chat-e2ee.facebook.com
+127.0.0.1  fbcdn.net
+127.0.0.1  static.xx.fbcdn.net
