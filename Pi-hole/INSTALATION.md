@@ -8,7 +8,7 @@
 ### 1. alten SSH_Fingerprint entfernen und neuen erstellen
 ```
 # Über PowerShell oder Command Prompt:
-ssh-keygen -R 192.168.17.251
+ssh-keygen -R 192.168.1.10  #(IP vom Raspberry Pi)
 
 # Oder für den Hostnamen:
 ssh-keygen -R pihole
@@ -20,7 +20,7 @@ ssh-keygen -R pihole
 
 notepad C:\Users\USER\.ssh\known_hosts
 
-# 2. Die Zeile mit "192.168.1.10" suchen und löschen (IP vom Raspberry Pi)
+# 2. Die Zeile mit "192.168.1.10" suchen und löschen  #(IP vom Raspberry Pi)
 # 3. Datei speichern und schließen
 ```
  - DANN einloggen
