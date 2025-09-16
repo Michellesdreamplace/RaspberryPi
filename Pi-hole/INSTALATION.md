@@ -2,9 +2,12 @@
 
 ---
 
-## 📋 Vorbereitung: Alte Installation komplett entfernen (wenn nötig)
+## 📋 Vorbereitung: Alte Installation komplett entfernen
 
-### 1. alten SSH_Fingerprint entfernen und neuen erstellen
+
+ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
+  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
+### 1. alten SSH_Fingerprint entfernen und neuen erstellen (wenn nötig)
 
 Über PowerShell oder Command Prompt:
 ```
@@ -33,26 +36,11 @@ ssh 192.168.17.251 -l USER
 
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
   ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
-### 1. System aktualisieren
+### 2. System aktualisieren
 ```
 sudo apt update && sudo apt full-upgrade -y
 sudo apt autoremove -y
 sudo apt clean
-```
- ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
-  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
-### 2. Pi-hole komplett deinstallieren
-```
-# Pi-hole deinstallieren
-sudo pihole uninstall
-
-# Alle verbleibenden Dateien entfernen
-sudo rm -rf /etc/pihole/
-sudo rm -rf /opt/pihole/
-sudo rm -rf /var/www/html/admin/
-sudo rm -f /etc/dnsmasq.d/01-pihole.conf
-sudo rm -f /etc/dnsmasq.d/02-pihole-dhcp.conf
-sudo rm -f /etc/cron.d/pihole
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
   ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
