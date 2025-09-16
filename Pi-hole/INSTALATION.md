@@ -1,26 +1,23 @@
 # 🔧 Komplette Neuinstallation von Pi-hole auf Raspberry Pi 
- ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
-  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
+
 ---
+
 ## 📋 Vorbereitung: Alte Installation komplett entfernen (wenn nötig)
- ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
-  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
+
 ### 1. alten SSH_Fingerprint entfernen und neuen erstellen
 
 Über PowerShell oder Command Prompt:
 ```
-# Über PowerShell oder Command Prompt:
 ssh-keygen -R 192.168.1.10  #(IP vom Raspberry Pi)
 
-# Oder für den Hostnamen:
+# oder für den Hostnamen:
 ssh-keygen -R pihole
 ```
- - ODER
+ - ODER (unter Windows):
 ```
 # Manuell aus known_hosts entfernen
 # 1. known_hosts Datei öffnen
 
-# unter Windows:
 notepad C:\Users\USER\.ssh\known_hosts
 
 # 2. Die Zeile mit "192.168.1.10" suchen und löschen  #(IP vom Raspberry Pi)
