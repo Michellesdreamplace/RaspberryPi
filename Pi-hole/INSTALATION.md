@@ -5,6 +5,34 @@
 ##📋 Vorbereitung: Alte Installation komplett entfernen
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
   ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
+### 1. alten SSH_Fingerprint entfernen und neuen erstellen
+```
+# Über PowerShell oder Command Prompt:
+ssh-keygen -R 192.168.17.251
+
+# Oder für den Hostnamen:
+ssh-keygen -R pihole
+```
+ - ODER
+```
+# Manuell aus known_hosts entfernen
+# 1. known_hosts Datei öffnen
+
+notepad C:\Users\USER\.ssh\known_hosts
+
+# 2. Die Zeile mit "192.168.1.10" suchen und löschen (IP vom Raspberry Pi)
+# 3. Datei speichern und schließen
+```
+ - DANN einloggen
+```
+ssh 192.168.17.251 -l USER
+
+# mit "yes" bestätigen
+```
+
+
+ ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
+  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
 ### 1. System aktualisieren
 ```
 sudo apt update && sudo apt full-upgrade -y
