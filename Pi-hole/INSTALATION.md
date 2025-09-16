@@ -2,7 +2,7 @@
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
   ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
 ---
-##📋 Vorbereitung: Alte Installation komplett entfernen (wenn nötig)
+## 📋 Vorbereitung: Alte Installation komplett entfernen (wenn nötig)
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
   ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
 ### 1. alten SSH_Fingerprint entfernen und neuen erstellen
