@@ -70,14 +70,8 @@ Wichtige Einstellungen während der Installation:
 - Logging: Ja aktivieren
 - Query Logging: Aktivieren für Debugging
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀
- ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
-### 5. Alternativ: Interaktive Installation
-```
-# Für mehr Kontrolle über den Installationsprozess
-git clone --depth=1 https://github.com/pi-hole/pi-hole.git Pi-hole
-cd "Pi-hole/automated install/"
-sudo bash basic-install.sh
-```
+
+
 
 !!! ACHTUNG: Das Web Interface password wird angezeigt !!! Bitte Notieren !!!
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
@@ -87,7 +81,7 @@ sudo bash basic-install.sh
   ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
 ### 6. Web Interface Passwort setzen
 ```
-pihole -a -p
+sudo pihole setpassword
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
   ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
