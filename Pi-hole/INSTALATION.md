@@ -57,6 +57,7 @@ sudo apt install curl git dnsutils lighttpd php-common php-cgi sqlite3 -y
 ### 4. Offizielles Installationsscript ausführen
 ```
 # Pi-hole mit automatischer Installation
+
 curl -sSL https://install.pi-hole.net | bash
 ```
  ⠀ ⠀ ⠀ ⠀ ⠀ ⠀ 
