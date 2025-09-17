@@ -32,6 +32,7 @@ l.facebook.com
 
 
 facebook.com
+m.facebook.com
 www.facebook.com
 gateway.facebook.com
 edge-chat.facebook.com
