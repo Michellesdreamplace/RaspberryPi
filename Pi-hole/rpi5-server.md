@@ -1,26 +1,10 @@
-<style>
-r { color: Red }
-o { color: Orange }
-g { color: Green }
-</style>
-
-# TODOs:
-
-- <r>TODO:</r> Important thing to do
-- <o>TODO:</o> Less important thing to do
-- <g>DONE:</g> Breath deeply and improve karma
-
-
-<span style="color:red"> *some emphasized markdown text*</span>
-
-
 ### Welche Firmwareversion habe ich?
 
 ```
 uname -a
 ```
 
-### Beispiel-Antwort:
+- ### Beispiel-Antwort:
 ```
 Linux rpi5 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64 GNU/Linux
 ```
