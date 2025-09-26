@@ -16,6 +16,7 @@ Linux rpi5 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm 
 <br/>
 <br/>
 <br/>
+
 > ###### Bevor wir das starten können muss zunächst einmal Git nachinstalliert werden.
 ```
 sudo apt-get update
