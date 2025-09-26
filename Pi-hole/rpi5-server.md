@@ -64,7 +64,14 @@ uname -a
 ```
 Linux rpi5 6.12.48-v8-16k+ #1905 SMP PREEMPT Mon Sep 22 13:35:50 BST 2025 aarch64 GNU/Linux
 ```
-
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 
 
