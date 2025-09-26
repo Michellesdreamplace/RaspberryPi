@@ -1,5 +1,55 @@
+# Welche Firmwareversion habe ich?
+'''
+uname -a
+'''
+
+# z.B.: Linux raspberrypi 3.6.11+ #371 PREEMPT Thu Feb 7 16:31:35 GMT 2013 armv6l GNU/Linux
+	Linux server-rpi5 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64 GNU/Linux
+	Linux server-rpi5 6.12.48-v8-16k+ #1905 SMP PREEMPT Mon Sep 22 13:35:50 BST 2025 aarch64 GNU/Linux
+
+
+
+
+# Das Update
+# Für das Firmwareupdate benutzten wir Hexxeh's praktisches Updateskript das uns die aktuellste Firmware herunterlädt und installiert.
+# Bevor wir das starten können muss zunächst einmal Git nachinstalliert werden.
+sudo apt-get update
+sudo apt-get install git
+
+# Nun laden wir das Skript herunter und setzen gleich die Ausführungsrechte.
+sudo wget https://raw.github.com/Hexxeh/rpi-update/master/rpi-update -O /usr/bin/rpi-update && sudo chmod +x /usr/bin/rpi-update
+
+# Zum Schluss starten wir den Aktualisierungsvorgang indem wir das Skript starten.
+sudo rpi-update
+
+# Nachdem das Skript fertig ist müsst ihr nur noch das System neustarten.
+sudo reboot
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 sudo apt-get update
 sudo apt-get upgrade
+
+
+sudo apt update
+sudo apt full-upgrade -y
+sudo rpi-update
+
+
+
 
 sudo raspi-config
 
