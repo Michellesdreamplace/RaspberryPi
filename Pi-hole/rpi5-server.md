@@ -1,4 +1,4 @@
-## Welche Firmwareversion habe ich?
+### Welche Firmwareversion habe ich?
 ```
 uname -a
 ```
@@ -8,7 +8,7 @@ uname -a
 Linux rpi5 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64 GNU/Linux
 ```
 
-## Das Update
+### Das Update
 ### Für das Firmwareupdate benutzten wir Hexxeh's praktisches Updateskript das uns die aktuellste Firmware herunterlädt und installiert.
 ### Bevor wir das starten können muss zunächst einmal Git nachinstalliert werden.
 ```
@@ -16,17 +16,17 @@ sudo apt-get update
 sudo apt-get install git
 ```
 
-## Nun laden wir das Skript herunter und setzen gleich die Ausführungsrechte.
+### Nun laden wir das Skript herunter und setzen gleich die Ausführungsrechte.
 ```
 sudo wget https://raw.github.com/Hexxeh/rpi-update/master/rpi-update -O /usr/bin/rpi-update && sudo chmod +x /usr/bin/rpi-update
 ```
 
-## Zum Schluss starten wir den Aktualisierungsvorgang indem wir das Skript starten.
+### Zum Schluss starten wir den Aktualisierungsvorgang indem wir das Skript starten.
 ```
 sudo rpi-update
 ```
 
-## Nachdem das Skript fertig ist müsst ihr nur noch das System neustarten.
+### Nachdem das Skript fertig ist müsst ihr nur noch das System neustarten.
 ```
 sudo reboot
 ```
