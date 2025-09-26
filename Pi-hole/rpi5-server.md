@@ -1,4 +1,6 @@
+<span style="color:red">
 ### Welche Firmwareversion habe ich?
+</span>
 ```
 uname -a
 ```
@@ -33,7 +35,7 @@ sudo rpi-update
 sudo reboot
 ```
 
-## Nochmals die Firmwareversion prüfen:
+### Nochmals die Firmwareversion prüfen:
 ```
 uname -a
 ```
