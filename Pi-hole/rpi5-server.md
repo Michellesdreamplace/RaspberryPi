@@ -29,12 +29,12 @@ sudo wget https://raw.githubusercontent.com/Michellesdreamplace/RaspberryPi/refs
 sudo rpi-update
 ```
 
-> ### Nachdem das Skript fertig ist müsst ihr nur noch das System neustarten.
+> #### Nachdem das Skript fertig ist müsst ihr nur noch das System neustarten.
 ```
 sudo reboot
 ```
 
-> ### Nochmals die Firmwareversion prüfen:
+> ##### Nochmals die Firmwareversion prüfen:
 ```
 uname -a
 ```
