@@ -3,9 +3,10 @@
 uname -a
 ```
 
-## z.B.: Linux raspberrypi 3.6.11+ #371 PREEMPT Thu Feb 7 16:31:35 GMT 2013 armv6l GNU/Linux
-	Linux server-rpi5 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64 GNU/Linux
-	Linux server-rpi5 6.12.48-v8-16k+ #1905 SMP PREEMPT Mon Sep 22 13:35:50 BST 2025 aarch64 GNU/Linux
+### Beispiel-Antwort:
+```
+Linux rpi5 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm (2025-09-16) aarch64 GNU/Linux
+```
 
 ## Das Update
 ### Für das Firmwareupdate benutzten wir Hexxeh's praktisches Updateskript das uns die aktuellste Firmware herunterlädt und installiert.
@@ -30,6 +31,15 @@ sudo rpi-update
 sudo reboot
 ```
 
+## Nochmals die Firmwareversion prüfen:
+```
+uname -a
+```
+
+### Beispiel-Antwort:
+```
+Linux rpi5 6.12.48-v8-16k+ #1905 SMP PREEMPT Mon Sep 22 13:35:50 BST 2025 aarch64 GNU/Linux
+```
 
 
 
