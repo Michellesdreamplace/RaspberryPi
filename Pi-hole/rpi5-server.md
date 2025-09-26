@@ -1,5 +1,8 @@
-> [!]
-> Useful information that users should know, even when skimming content.
+# Markdown
+    ---
+    output: pdf_document
+    ---
+    Roses are \textcolor{red}{red}, violets are \textcolor{blue}{blue}.
 
 
 ### Welche Firmwareversion habe ich?
