@@ -11,7 +11,7 @@ Linux rpi5 6.12.47+rpt-rpi-2712 #1 SMP PREEMPT Debian 1:6.12.47-1+rpt1~bookworm 
 ```
 
 > ##### Das Update
-> ###### Für das Firmwareupdate benutzten wir Hexxeh's praktisches Updateskript das uns die aktuellste Firmware herunterlädt und installiert.\
+> ###### Für das Firmwareupdate benutzten wir Hexxeh's praktisches Updateskript das uns die aktuellste Firmware herunterlädt und installiert. <br/>
 > ###### Bevor wir das starten können muss zunächst einmal Git nachinstalliert werden.
 ```
 sudo apt-get update
