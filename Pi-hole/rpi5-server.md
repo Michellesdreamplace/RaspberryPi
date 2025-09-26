@@ -1,8 +1,5 @@
-# Markdown
-    ---
-    output: pdf_document
-    ---
-    Roses are \textcolor{red}{red}, violets are \textcolor{blue}{blue}.
+
+Roses are \textcolor{red}{red}, violets are \textcolor{blue}{blue}.
 
 
 ### Welche Firmwareversion habe ich?
