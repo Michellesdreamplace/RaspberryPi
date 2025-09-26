@@ -1,6 +1,8 @@
-<span style="color:red">
+<span style="color:red"> *some emphasized markdown text*</span>
+
+
 ### Welche Firmwareversion habe ich?
-</span>
+
 ```
 uname -a
 ```
