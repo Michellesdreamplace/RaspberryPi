@@ -5,10 +5,15 @@
 !! Stelle sicher, dass der Stecker eingeschaltet ist !!
 
 Home Assistant
+
 Kategorie: Einstellungen
+
 Geräte und Dienste
+
 Zigbee Home Automation
+
 Powerplug (der Name, den ich dem TS011 gegeben habe)
+
 - Geräte-Informationen – klicke auf die drei Punkte rechts neben „Neu konfigurieren“
 - Zigbee-Gerät verwalten
   - auf den Reiter „Befehle“ klicken
